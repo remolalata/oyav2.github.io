@@ -166,8 +166,8 @@ header {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    height: 55px;
-    padding: 0 15px 15px;
+    height: 40px;
+    padding: 0 15px;
 }
 
 .comic-footer .tip-fav {
