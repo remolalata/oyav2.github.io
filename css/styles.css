@@ -87,6 +87,11 @@ header {
     padding-bottom: 15px;
 }
 
+.comic img {
+    display: block;
+    margin: 0 auto;
+}
+
 .comic-header,
 .comic-body,
 .comic-footer {
@@ -103,8 +108,8 @@ header {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    height: 60px;
-    padding: 15px 15px 0;
+    height: 40px;
+    padding: 0 15px;
 }
 
 .comic-header a {
