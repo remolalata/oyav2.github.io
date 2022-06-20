@@ -1,0 +1,69 @@
+html,
+body {
+    background-color: #1A1A1A;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1A1A1A;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.header .container {
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    border: none;
+}
+
+.navigation ul li {
+    width: 33.333%;
+}
+
+.navigation ul a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.navigation ul.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+.navigation ul.nav-tabs .nav-link.active {
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.content,
+.tab-content,
+.tab-pane,
+.comics,
+.comic {
+    height: 100%;
+}
+
+.comic {
+    color: #ffffff;
+    padding-top: 90px;
+}

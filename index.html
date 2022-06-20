@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/OYA.svg" alt="Logo" />
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#new">new</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#trending">trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#feed">feed</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="tab-content">
+            <div class="tab-pane active" id="new" role="tabpanel" aria-labelledby="new-tab">
+                <div class="comics">
+                    <div class="comic">
+                        <h1>comic</h1>
+                    </div>
+                    <div class="comic">
+                        <h1>comic</h1>
+                    </div>
+                    <div class="comic">
+                        <h1>comic</h1>
+                    </div>
+                    <div class="comic">
+                        <h1>comic</h1>
+                    </div>
+                    <div class="comic">
+                        <h1>comic</h1>
+                    </div>
+                    <div class="comic">
+                        <h1>comic</h1>
+                    </div>
+                    <div class="comic">
+                        <h1>comic</h1>
+                    </div>
+                    <div class="comic">
+                        <h1>comic</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="trending" role="tabpanel" aria-labelledby="trending-tab">
+                <h1>trending</h1>
+            </div>
+            <div class="tab-pane" id="feed" role="tabpanel" aria-labelledby="feed-tab">
+                <h1>feed</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.scrollify.js"></script>
+    <!-- <script src="js/hammer.min.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            $.scrollify({
+                section: ".comic"
+            });
+        });
+    </script>
+</body>
+
+</html>
