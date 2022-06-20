@@ -13,6 +13,7 @@ header {
     left: 0;
     right: 0;
     background-color: #1A1A1A;
+    z-index: 9999;
 }
 
 .container {
@@ -58,12 +59,93 @@ header {
 .content,
 .tab-content,
 .tab-pane,
-.comics,
-.comic {
+.swiper {
     height: 100%;
 }
 
+.tab-content {
+    padding-top: 70px;
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+.comic .swiper-slide {
+    padding-top: 0;
+}
+
 .comic {
+    background-color: #212121;
+    padding-bottom: 15px;
+}
+
+.comic-header,
+.comic-body,
+.comic-footer {
+    background-color: #1A1A1A;
+}
+
+.comic-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 15px 15px 0;
+}
+
+.comic-header a {
+    text-decoration: none;
     color: #ffffff;
-    padding-top: 90px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.comic-header .comic-name a {
+    font-weight: 500;
+}
+
+.comic-swiper::after {
+    content: '';
+    position: absolute;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    z-index: 1;
+}
+
+.comic .swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0;
+    height: 40px;
+    
+}
+
+.comic .swiper-pagination-bullet {
+    background: transparent;
+    border: 1px solid #fff;
+    opacity: 1;
+    position: relative;
+    bottom: -20px;
+}
+
+.comic .swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.comic-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    padding: 0 15px 15px;
+}
+
+.comic-footer .tip-fav {
+    width: 72px;
+    display: flex;
+    justify-content: space-between;
 }
