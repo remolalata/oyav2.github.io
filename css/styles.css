@@ -127,7 +127,7 @@ header {
     background-color: #C4C4C4;
 }
 
-.comic-swiper::after {
+.comic-body .comic-swiper::after {
     content: '';
     position: absolute;
     height: 40px;
@@ -143,6 +143,13 @@ header {
     background-repeat: no-repeat;
     z-index: 99;
 }
+
+/* .comic-body {
+    background-image: url("../images/comic-pagination-shadow.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+} */
 
 .comic .swiper-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
