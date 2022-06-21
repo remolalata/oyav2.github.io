@@ -159,8 +159,8 @@ header {
 }
 
 .comic .swiper-pagination-bullet {
-    background: transparent;
-    border: 1px solid #fff;
+    /* background: transparent;
+    border: 1px solid #fff; */
     opacity: 1;
     position: relative;
     bottom: -20px;
