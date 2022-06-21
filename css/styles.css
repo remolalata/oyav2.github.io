@@ -79,7 +79,7 @@ header {
 
 .comic .swiper-slide {
     padding-top: 0;
-    z-index: 99;
+    /* z-index: 99; */
 }
 
 .comic {
@@ -141,7 +141,7 @@ header {
     z-index: 999; */
     background-image: url("../images/comic-pagination-shadow.png");
     background-repeat: no-repeat;
-    z-index: 99;
+    /* z-index: 99; */
 }
 
 /* .comic-body {
@@ -155,7 +155,7 @@ header {
 .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 0;
     height: 40px;
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 
 .comic .swiper-pagination-bullet {
