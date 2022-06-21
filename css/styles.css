@@ -123,6 +123,10 @@ header {
     font-weight: 500;
 }
 
+.comic-swiper .swiper-slide {
+    background-color: #C4C4C4;
+}
+
 .comic-swiper::after {
     content: '';
     position: absolute;
